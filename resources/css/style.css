@@ -1,5 +1,5 @@
 body {
-    padding: 70px;
+    padding-top: 50px;
 }
 
 html {
@@ -32,6 +32,11 @@ html {
 
 /* ===NAVIGATION STYLES=== */
 
+nav {
+    background-color: white;
+    z-index: 20px;
+}
+
 nav a {
     color: black;
     font-size: 1.1rem;
@@ -47,6 +52,10 @@ nav .active {
 .jumbotron {
     background-size: cover;
     padding: 11.85rem 0;
+}
+
+.jumbotron .container {
+    width: 100%;
 }
 
 .jumbotron h2 {
@@ -67,5 +76,6 @@ nav .active {
 }
 
 .jumbotron-bike {
-    background-image: url('../images/jumbotron-bike.jpg');
+    background-image: url(../images/jumbotron-bike.jpg);
 }
+
