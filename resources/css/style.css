@@ -7,7 +7,30 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Navigation Styles */
+.btn {
+    display: block;
+    width: 11.4rem;
+    padding: 1.3rem 0;
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    margin-top: 2.8rem;
+}
+
+/* buttons */
+
+.btn:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.center {
+    margin: 0 auto;
+}
+
+/* ===NAVIGATION STYLES=== */
 
 nav a {
     color: black;
@@ -19,10 +42,11 @@ nav .active {
     color: #399bd1;
 }
 
-/* ===RESPONSIVE DESIGN=== */
+/* Jumbotron Styles */
 
 .jumbotron {
     background-size: cover;
+    padding: 11.85rem 0;
 }
 
 .jumbotron h2 {
@@ -38,6 +62,8 @@ nav .active {
 
 .jumbotron p {
     color: white;
+    width: 50rem;
+    text-align: center
 }
 
 .jumbotron-bike {
