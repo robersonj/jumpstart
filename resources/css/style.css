@@ -7,6 +7,10 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+main {
+    padding: 15px 40px;
+}
+
 .btn {
     display: block;
     width: 11.4rem;
@@ -40,7 +44,6 @@ nav {
 nav a {
     color: black;
     font-size: 1.1rem;
-    font-weight: bold;
 }
     
 nav .active {
