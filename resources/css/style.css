@@ -28,7 +28,6 @@ main {
     padding: 1rem 0;
     background-color: #399bd1;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-    margin-top: 4rem;
 }
 
 .box {
@@ -56,6 +55,7 @@ main {
 
 .image-container {
     overflow: hidden;
+    padding: 0;
 }
 
 .image-container img:hover {
@@ -124,28 +124,62 @@ nav .active {
     background-image: url(../images/jumbotron-duffel.jpg);
 }
 
+.jumbotron p {
+    margin-bottom: 5rem;
+}
+
 /* ===FEATURED PROJECTS STYLES=== */
 
 #featured .row {
     width: 100%;
 }
 
-#featured img {
+#featured h2 {
+    margin-bottom: 20px;
+}
+
+#featured h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#featured p {
+    margin-bottom: 0;
+}
+
+#featured .image-container img {
     width: 100%;
 }
 
+#featured .image-container {
+    padding: 0;
+}
+
 /* ===PROJECTS STYLES=== */
+
+#projects {
+    margin-bottom: 5.85rem;
+}
+
+#projects h2 {
+    margin: 50px 15px 20px 15px;
+}
+
+#projects h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
 
 #projects .project img {
     width: 100%;
 }
 
+#projects p {
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.7);
+}
 #projects .row {
     width: 100%;
-}
-
-#projects .categories p {
-    margin-bottom: 0;
 }
 
 /* Footer Styles */ 
@@ -161,6 +195,6 @@ footer h2, footer p {
 
 footer p {
     width: 42rem;
-    padding-bottom: 1.2rem;
+    padding-bottom: 5rem;
 }
 
