@@ -14,11 +14,12 @@ var userScrollAmount = 0;
 $(window).scroll(function () {
     var scrollTop = $(this).scrollTop();
     if(scrollTop - userScrollAmount > 50) {
-        var navbarHeight = $('.navbar').css('height');
-        $('navbar').animate({top: '-' + navbarHeight}, 150);
+        var navHeight = $('.navbar').css('height');
+        $('.navbar').animate({top: '-' + navHeight}, 150);
         userScrollAmount = scrollTop;
-    } else {
-        $('navbar').animate({top: '0px' }, 150);
+    } else if(userScrollAmount - scrollTop > 50) {
+        $('.navbar').animate({top: '0px' }, 150);
         userScrollAmount = scrollTop;
     }
-)}:
+    
+});
