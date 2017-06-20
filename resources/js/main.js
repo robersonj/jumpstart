@@ -21,5 +21,4 @@ $(window).scroll(function () {
         $('navbar').animate({top: '0px' }, 150);
         userScrollAmount = scrollTop;
     }
-    
 }
