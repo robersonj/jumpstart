@@ -20,6 +20,10 @@ main {
     margin-top: 2.8rem;
 }
 
+.box {
+    box-sizing: border-box;
+}
+
 /* buttons */
 
 .btn:active {
@@ -32,6 +36,10 @@ main {
 
 .center {
     margin: 0 auto;
+}
+
+.image-container {
+    opacity: 0.7;
 }
 
 /* ===NAVIGATION STYLES=== */
@@ -80,5 +88,17 @@ nav .active {
 
 .jumbotron-bike {
     background-image: url(../images/jumbotron-bike.jpg);
+}
+
+/* ===FEATURED PROJECTS STYLES=== */
+
+/* ===PROJECTS STYLES=== */
+
+#projects .project img {
+    width: 100%;
+}
+
+#projects .row {
+    width: 100%;
 }
 
