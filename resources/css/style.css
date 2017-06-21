@@ -1,5 +1,7 @@
 body {
     padding-top: 50px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 #featured h2, #projects h2 {
@@ -145,7 +147,7 @@ nav .active {
     font-weight: bold;
 }
 
-#featured p {
+#featured .categories p {
     margin-bottom: 0;
 }
 
