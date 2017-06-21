@@ -85,6 +85,7 @@ nav .active {
 .jumbotron {
     background-size: cover;
     padding: 11.85rem 0;
+    height: 50rem;
 }
 
 .jumbotron .container {
@@ -136,6 +137,7 @@ nav .active {
 
 #featured h2 {
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 #featured h3 {
@@ -162,7 +164,7 @@ nav .active {
 }
 
 #projects h2 {
-    margin: 50px 15px 20px 15px;
+    margin: 40px 15px 20px 15px;
 }
 
 #projects h3 {
@@ -191,6 +193,7 @@ footer {
 
 footer h2, footer p {
     text-align: center;
+    box-sizing: inherit;
 }
 
 footer p {
@@ -198,3 +201,44 @@ footer p {
     padding-bottom: 5rem;
 }
 
+/* ===RESPONSIVE DESIGN=== */
+
+@media only screen and (max-width: 1024px) {
+    
+    footer p {
+        width: auto;
+    }
+    
+    main {
+        padding: 0 10px;
+    }
+    
+    .jumbotron {
+        height: 45rem;
+    }
+    
+    .jumbotron h2 {
+        font-size: 4rem;
+    }
+    
+    .jumbotron p {
+        width: auto;
+    }
+    
+    .navbar-brand {
+        display: none;
+    }
+    
+    #featured .txt-container {
+        padding-top: 15px;
+    }
+    
+    #projects {
+        margin-bottom: 40px;
+    }
+    
+    #projects .txt-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
